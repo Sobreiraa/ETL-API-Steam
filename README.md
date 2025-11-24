@@ -12,24 +12,6 @@ Automatizar a coleta de informações de jogos da Steam a partir de uma lista de
 
 ---
 
-## Arquitetura da Pipeline
-
-app/
- └── pipelines/
-      ├── extrair.py
-      ├── transformar.py
-      └── carregar.py
-main.py
-
-data/
- ├── input/
- │     steamcmd_appid.csv
- └── output/
-       API_STEAM_GAMES_TODOS.csv
-
-
----
-
 ## Etapas do ETL
 
 ### 1. Extração – `extraindo_dados_API`
